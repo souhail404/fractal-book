@@ -10,18 +10,18 @@ const QaSection = () => {
                 <h3>Q&A</h3>
                 </div>
                 <div className="section-content">
-                    <QuestionAnswer question="What is Fractal Book?" 
-                                    answer="Fractal Book is an NFT collection on Fractal Bitcoin featuring three types of digital books: common, rare, and legendary. Each book represents different levels of rarity and unlocks exclusive benefits within the ecosystem."
+                    <QuestionAnswer question="Why does Cyclops only have one eye?" 
+                                    answer="No one knows for sure. Some say he lost it in a street brawl, others think he traded it for on-chain vision. Either way, he sees more than most."
                                     isChanged={isChanged}
                                     setIsChanged={setIsChanged}
                                     />
-                    <QuestionAnswer question="How do I get $FBOOK?" 
-                                    answer="You can get FBOOK through an airdrop by holding Fractal Book NFTs or by participating in the open mint, where a portion of the total supply is available for purchase."
+                    <QuestionAnswer question="Is Cyclops real or just a meme?" 
+                                    answer="He’s both. A real stray cat turned pixel prophet. He lives with Dith IRL, but online, he’s a memecoin deity."
                                     isChanged={isChanged}
                                     setIsChanged={setIsChanged}
                                     />
-                    <QuestionAnswer question="How does the airdrop work?" 
-                                    answer="50% of the FBOOK supply is airdropped to holders of the Fractal Book NFTs. The amount you receive depends on the rarity of the NFT you hold, with rarer books offering larger rewards."
+                    <QuestionAnswer question="Can I pet Cyclops?" 
+                                    answer="Only if your wallet is connected, your vibes are pure, and you’ve made a worthy offering. Cyclops accepts treats or tokens."
                                     isChanged={isChanged}
                                     setIsChanged={setIsChanged}
                                     />

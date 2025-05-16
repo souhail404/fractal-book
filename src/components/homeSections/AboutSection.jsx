@@ -1,52 +1,44 @@
 import React from 'react'
-import bookOrange from '../../assets/b-orange.png'
-import bookPurple from '../../assets/b-purple.png'
-import bookBlack from '../../assets/b-black.png'
-
-import { MdArrowForward, MdContentCopy } from "react-icons/md";
-import { CopyToClipboard } from "react-copy-to-clipboard";
-import { toast } from "react-toastify";
-
 
 const AboutSection = () => {
-    const showNotification = ()=>{
-        toast.success("Token ID Copied successfuly !", {
-            position: toast.POSITION.BOTTOM_CENTER,
-        });
-    }
   return (
     <section id='about-section--home' className='ptop'>
+        
         <div className="container-1">
             <div className="section-header">
-                <h3>Who Are we ?</h3>
+                <h3>Cyclops Story</h3>
             </div>
             <div className="section-content">
                 <div className="side-wrapper about-wrapper">
-                    {/* <h4 className='heading'>Solabrador Leads the Next Wave of Memecoins!</h4> */}
-                    <p className='about-text large'>In the world of "Fractal Book," each book holds the wisdom of the blockchain, with knowledge and stories encrypted within its pages. These books are fragments of an ancient digital library, each representing different levels of power and rarity in the Bitcoin ecosystem. The red books (common) are the entry-level volumes, blue books (rare) offer deeper insight and rarer knowledge, while green books (epic) are legendary, containing secrets that only the most dedicated can unlock. Collectors are part of a growing guild of knowledge seekers, where owning these books is a step toward understanding the infinite potential of blockchain.</p>
-                    {/* <p className='about-text large'>While the largest memecoin projects currently reside on Ethereum and BSC, this landscape is poised for a change. Enter $SOBER. Memecoins on Solana offer enhanced user-friendliness. Moreover, they provide more affordable exposure, making them accessible to everyone.</p> */}
-                    <p className='about-text small'>In the world of "Fractal Book," each book holds the wisdom of the blockchain, with knowledge and stories encrypted within its pages. These books are fragments of an ancient digital library, each representing different levels of power and rarity in the Bitcoin ecosystem. The red books (common) are the entry-level volumes, blue books (rare) offer deeper insight and rarer knowledge, while green books (epic) are legendary, containing secrets that only the most dedicated can unlock. Collectors are part of a growing guild of knowledge seekers, where owning these books is a step toward understanding the infinite potential of blockchain.</p>
-                    {/* <p className='about-text small'>While the largest memecoin projects currently reside on Ethereum and BSC, this landscape is poised for a change. Enter $SOBER. Memecoins on Solana offer enhanced user-friendliness.</p> */}
-                </div>
-                <div className='side-wrapper boxes-wrapper'>
-                    <div className="box">
-                        <h6 className="box-heading">Common</h6>
-                        <div className='box-content'>
-                            <img src={bookBlack} alt="orange book"/>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <h6 className="box-heading">Rare</h6>
-                        <div className='box-content'>
-                            <img src={bookPurple} alt="orange book"/>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <h6 className="box-heading">Legendary</h6>
-                        <div className='box-content'>
-                            <img src={bookOrange} alt="orange book"/>
-                        </div>
-                    </div>
+                    <h4 className='story-text'>
+                        It all started in Dith's garden... <br /> <br />
+                        A one-eyed stray cat appeared out of nowhere, like a glitch in the matrix. Scrappy, silent, and somehow staring straight into your soul with his single eye. He didn’t meow. He didn’t beg. He simply existed, defiantly, unapologetically. <br /> <br />
+
+                        Dith’s wife said he stays. <br /> <br />
+                        Dith agreed... on one condition: he gets to name him. <br /> <br />
+                        Thus, Cyclops was born, and the legend began. <br /> <br />
+
+                        But this was no ordinary adoption tale. <br /> <br />
+                        As fate would have it, Cyclops was destined for something bigger than sunbathing on patio tiles. The Abstract Chain, home of consumer crypto, meme magic, and degenerate dreams, found him. Or maybe he found it.
+                        <br /> <br />
+                        And the chain reacted like it always does: chaotically, instantly, collectively.<br /> <br />
+                        Suddenly, Cyclops was tokenized by the community. <br /> <br />
+                        He wasn’t just a stray cat anymore, he was the chosen one. <br /> <br />
+
+                        Playful. Intelligent. Fearless. Adaptive. <br /> <br />
+                        A pixelated prophet for a decentralized age. <br /> <br />
+                        A digital deity with a twitchy tail and one all-seeing eye. <br /> <br />
+                        He became a symbol, of survival, of silliness, of pure memetic destiny. <br /> <br />
+
+                        Cyclops gives zero f*cks. <br /> <br />
+
+                        He’s not just part of the household. <br /> <br />
+                        He’s part of the chain now. <br /> <br />
+                        He’s yours, and he’s everyone’s. <br /> <br />
+
+                        One eye. Nine lives. Infinite possibilities. <br /> <br />
+                        Welcome to the cult of Cyclops. <br /> <br />
+                    </h4>
                 </div>
             </div>
         </div>  
