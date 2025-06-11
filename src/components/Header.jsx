@@ -5,6 +5,7 @@ import { BsTelegram } from "react-icons/bs";
 import { IoLogoDiscord } from "react-icons/io5";
 import { AiOutlineMenu } from "react-icons/ai";
 import catImg from '../assets/cat-logo.png'
+import dexImg from '../assets/dexscreener.svg'
 
 
 
@@ -29,6 +30,7 @@ const Header = () => {
           <div className='social-wrapper--header'>
             <a href="https://x.com/CyclopsOnAbs" target="_blank" rel="noopener noreferrer" className='social-link'> <BsTwitterX /> </a>
             <a href="https://t.me/CYCLOPSPORTALL" target="_blank" rel="noopener noreferrer" className='social-link'> <BsTelegram /> </a>
+            <a href="https://t.me/CYCLOPSPORTALL" target="_blank" rel="noopener noreferrer" className='social-link'> <img src={dexImg} alt="dex" /> </a>
             {/* <a href="" target="_blank" rel="noopener noreferrer" className='social-link'> <IoLogoDiscord /></a> */}
           </div>
           <div className='mobile-menu-toggler--header'>

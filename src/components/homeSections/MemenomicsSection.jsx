@@ -25,7 +25,7 @@ const MemenomicsSection = () => {
                                 <li><span>Class:</span> Street Survivor</li>
                                 <li><span>Eye Count:</span> one</li>
                                 <li><span>Personality:</span> Playful</li>
-                                <li><span>Status:</span> Indoor God </li>
+                                <li><span>Status:</span> in gigaverse </li>
                             </ul>
                         </div>
                     </div>
