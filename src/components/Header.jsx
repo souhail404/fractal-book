@@ -30,7 +30,7 @@ const Header = () => {
           <div className='social-wrapper--header'>
             <a href="https://x.com/CyclopsOnAbs" target="_blank" rel="noopener noreferrer" className='social-link'> <BsTwitterX /> </a>
             <a href="https://t.me/CYCLOPSPORTALL" target="_blank" rel="noopener noreferrer" className='social-link'> <BsTelegram /> </a>
-            <a href="https://t.me/CYCLOPSPORTALL" target="_blank" rel="noopener noreferrer" className='social-link'> <img src={dexImg} alt="dex" /> </a>
+            <a href="https://dexscreener.com/abstract/0x0fc6e222f4e27189801909c610ae6172cb69e5a5" target="_blank" rel="noopener noreferrer" className='social-link'> <img src={dexImg} alt="dex" /> </a>
             {/* <a href="" target="_blank" rel="noopener noreferrer" className='social-link'> <IoLogoDiscord /></a> */}
           </div>
           <div className='mobile-menu-toggler--header'>
