@@ -9,10 +9,6 @@ const Footer = () => {
     <footer id='main-footer'>
       <div className="container-1">
         <h6 className='c-right'>© 2025 Built by <a href="https://x.com/SouhailDev">@SOUEL</a>. <br className='break-line' /> All Rights Reserved.</h6>
-        <div className='links'>
-          <a href="https://x.com/CyclopsOnAbs" target="_blank" rel="noopener noreferrer" className='social-link'> <BsTwitterX /> </a>
-          <a href="https://t.me/CYCLOPSPORTALL" target="_blank" rel="noopener noreferrer" className='social-link'> <BsTelegram /></a>
-        </div>
       </div>
     </footer>
   )
