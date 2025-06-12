@@ -7,7 +7,7 @@ const QaSection = () => {
         <section id='qa-section--home' className='ptop'>
             <div className="container-1">
                <div className="section-header">
-                <h3>Q&A</h3>
+                <h3>FAQ</h3>
                 </div>
                 <div className="section-content">
                     <QuestionAnswer question="Why does Cyclops only have one eye?" 

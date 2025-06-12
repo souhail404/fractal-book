@@ -154,7 +154,7 @@ footer#main-footer .container-1{
   padding-block: 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 footer#main-footer .c-right{
   font-family: "Press Start 2P";
