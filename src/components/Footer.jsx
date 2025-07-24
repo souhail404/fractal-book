@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer id='main-footer'>
       <div className="container-1">
-        <h6 className='c-right'>© 2025 Built by <a href="https://x.com/SouhailDev">@SOUEL</a>. <br className='break-line' /> All Rights Reserved.</h6>
+        <h6 className='c-right'>© 2025 Built by <a href="https://x.com/Souel04">@SOUEL</a>. <br className='break-line' /> All Rights Reserved.</h6>
       </div>
     </footer>
   )
