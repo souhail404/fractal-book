@@ -17,23 +17,23 @@ const GallerySection = () => {
                 <h3>Cyclops Gallery</h3>
             </div>
             <div className="section-content">
-                <div class="gallery-grid">
-                    <div class="gallery-item">
+                <div className="gallery-grid">
+                    <div className="gallery-item">
                         <img src={gallery4} alt="Cyclops" />
                     </div>
-                    <div class="gallery-item">
+                    <div className="gallery-item">
                         <img src={gallery6} alt="Cyclops" />
                     </div>
-                    <div class="gallery-item">
+                    <div className="gallery-item">
                         <img src={gallery5} alt="Cyclops" />
                     </div>
-                    <div class="gallery-item">
+                    <div className="gallery-item">
                         <img src={gallery1} alt="Cyclops" />
                     </div>
-                    <div class="gallery-item">
+                    <div className="gallery-item">
                         <img src={gallery2} alt="Cyclops" />
                     </div>
-                    <div class="gallery-item">
+                    <div className="gallery-item">
                         <img src={gallery3} alt="Cyclops" />
                     </div>
                 </div>
